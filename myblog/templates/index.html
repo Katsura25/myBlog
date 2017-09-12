@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>My Blog Home</h1>
+
+    <p> This is my blog that I designed to better understand Django </p>
+
+<h2>Dynamic Content</h2>
+    <p>The following posts have been posted:</p>
+    <ul>
+        <li><strong>Posts:</strong>{{num_posts}}</li>
+    </ul>
+
+{% endblock %}
+
